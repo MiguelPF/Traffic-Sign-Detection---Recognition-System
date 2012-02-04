@@ -8,3 +8,5 @@ directory = '.\KUL-seq01';        %Images folder
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Also the images_dir = '.\ModelsRecognition'; directory contains the signs models for plotting them 
 after the recognition (and therefore see what is the recognized sign)
+
+This code were developed by O. Motto, I. Alonso and M. Pousa for the MCVAI Computer Vision class
