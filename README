@@ -1,0 +1,10 @@
+results in: http://youtu.be/uYeWTaKyOKs
+In order to run this code you need two things, 
+first: You need to install and set up the Matlab libSVM library.
+second: you need some images (maybe from a street video, I use the KUL video)
+Change these lines:
+aviobj = avifile('video_KUL.avi','FPS',8,'compression','Indeo5');
+directory = '.\KUL-seq01';        %Images folder
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Also the images_dir = '.\ModelsRecognition'; directory contains the signs models for plotting them 
+after the recognition (and therefore see what is the recognized sign)
